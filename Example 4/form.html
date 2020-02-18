@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>About you</legend>
+            <p><label for="firstname">First name:</label>
+            <input type="text" name="firstname" id ="firstname"></p>
+            <p><label for="lastName">Last name:</label>
+            <input type="text" name="lastname" id ="lastName"></p>
+           <p><label for="birthdate">birthdate:</label>
+            <input type="date" name="birthdate" id="birthdate"></p> 
+        </fieldset>
+        <fieldset>
+            <legend>Favorite codes</legend>
+            <p><label for="javascript">Javascript</label>
+            <input type="checkbox" name="javascript" id="javascript"></p>
+           <p><label for="node">Node</label>
+            <input type="checkbox" name="node" id="node"></p> 
+           <p><label for="php">PHP</label>
+            <input type="checkbox" name="php" id="php"></p> 
+        </fieldset>
+        <fieldset>
+            <legend>Favorite IDE</legend>
+            <p>  <label for="IntelIJ">IntelIJ</label>
+            <input type="radio" name="IDE" id="intelIJ" value="intelIJ"></p>
+          
+             <p><label for="vscode">Visual studio code</label>
+            <input type="radio" name="IDE" id="vscode" value="vscode"></p>
+            
+            <p><label for="atom">Atom</label>
+            <input type="radio" name="IDE" id="atom" value="atom"></p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Favorite mobile OS</legend>
+            <p><label for="android">Android</label>
+            <input type="radio" name="os" id="android" value="android"></p>
+            
+            <p> <label for="ios">IOS</label>
+            <input type="radio" name="os" id="ios" value="ios"></p>
+           
+        </fieldset>
+        <p> <label for="comment">Comments:</label>
+        <input type="text" name="comment"></p>
+        <p><label for="disabled">Disabled value:</label>
+        <input type="text" id="disabled" name="disabled" value="disabled value" disabled></p>
+        
+        <p><input type="reset" value="Reset">
+        <input type="submit"></p>
+        
+    </form>
+</body>
+</html>
